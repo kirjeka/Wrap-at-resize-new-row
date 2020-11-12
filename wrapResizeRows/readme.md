@@ -20,7 +20,7 @@ Here is a HTML header example:
 In the app.js add the following code:
 
 ```
-resizeNewRows($('#test'),"MyPWrapper2",'MySpanWrapper2'
+resizeNewRows($('#test'),"MyPWrapper2",'MySpanWrapper2')
 ```
 
 First parameter,you div which you want wrap in span at resize,second all span class, third class p. 
