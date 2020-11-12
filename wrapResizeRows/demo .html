@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+
+<style>
+    body{
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,196,0) 50%, rgba(252,176,69,1) 100%);
+    }
+
+    div{
+        font-size: 40px;
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    h3{
+        margin: 25px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .example{
+        color: red;
+    }
+
+    .elem1{color: red}
+    .elem2{color: blue}
+    .elem3{color: green}
+    .elem4{color: brown}
+    .elem5{color:greenyellow}
+    #test{
+        text-align: center;
+
+    }
+    #test2{
+        text-align: center;
+        border: 1px solid red;
+    }
+    .spanWrapperClass {
+        border: 1px solid red;
+    }
+
+
+
+
+</style>
+
+<h1>At Resize wrap news rows in span,how its work?</h1>
+
+<h3>For example,you have some text.This text wrap in div,but if you resize the window,news row wrap in one div.Like this</h3>
+
+<div id="test2">
+ <span class="example"> div</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, Harum <span class="example"> div</span>
+</div>
+<hr>
+<h3>If you want that each news row been in span you can use my function and than you can write each new rows foe example new Css style its easy </h3>
+<div id="test">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium,Lorem ipsum dolor sit amet,
+</div>
+<hr>
+<h3>You can see,at resize new rows have some new color.In WebTools can see new class for each new rows</h3>
+
+
+
+
+</body>
+
+
+<script src="resizeNewRows.js"></script>
+
+<script src="app.js"></script>
+</html>
